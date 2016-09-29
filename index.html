@@ -1,35 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <meta charset="utf-8">
-    <title>
-        Your Title here
-    </title>
-    <meta content="" name="description">
-    <meta content="" name="author">
-    <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" name="viewport" />
-    <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/skeleton.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link href="images/favicon.png" rel="icon" type="image/png">
+<link href="style.css" rel="stylesheet">
 </head>
-
 <body>
-    <!-- Content
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div class="box">
+<form name="calc">
+<input name="result" width="40px" height="10px">
+<div class="keys">
 
 
-    <!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <p><input type="button" class="buttons" value="1" onclick="key1()">
+    <input type="button" class="buttons" value="2" onclick="key2()">
+    <input type="button" class="buttons" value="3" onclick="key3()"></p>     
+
+    <p><input type="button" class="buttons" value="4" onclick="key4()">
+    <input type="button" class="buttons" value="5" onclick="key5()">
+    <input type="button" class="buttons" value="6" onclick="key6()"></p>
+
+    <p><input type="button" class="buttons" value="7" onclick="key7()">
+    <input type="button" class="buttons" value="8" onclick="key8()">
+    <input type="button" class="buttons" value="9" onclick="key9()"></p>
+
+    <p><input type="button" class="buttons" value="0" onclick="keyzero()">
+    <input type="button" class="buttons" value="=" onclick="keyequal()">
+    <input type="button" class="buttons" value="+" onclick="keyplus()"></p>
+
+    <p><input type="button" class="buttons" value="-" onclick="keysub()">
+    <input type="button" class="buttons" value="*" onclick="keymul()">
+    <input type="button" class="buttons" value="/" onclick="keydiv()"></p>
+
+    </div>
+
+    
+
+
+</form>
+<script type="text/javascript" src="script.js"></script>
 </body>
-
 </html>
